@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.pw-container {
+    /* background-color: rgb(46, 12, 80); */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: 400px;
+    transition: 0.8s;
+}
+.pw-container:hover {
+    box-shadow: 10px 10px 10px transparent;
+}
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background-color: rgba(84, 238, 153, 0.316);
+    border-radius: 900px;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    transition: transform 0.2s;
+    overflow: auto;
+}
+.pw:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 54px rgba(31, 45, 70, 0.523);
+    transform: translateY(-2px);
+}
+
+.pw button {
+    background-color: white;
+    border: none;
+    color: rgb(29, 2, 56);
+    margin-top: 18px;
+    margin-right: 4px;
+    border-radius: 800px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 50%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.pw-body {
+    padding: 0 1rem 1rem;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate {
+    background-color: #ecb602;
+    border: none;
+    color: rebeccapurple;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+    transition: 0.5s;
+}
+.generate:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(189, 194, 30, 0.523);
+    transform: translateY(-2px);
+}
