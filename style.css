@@ -38,7 +38,7 @@ body {
   padding-left: 8px;
   font-size: 1.2rem;
   height: 50px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .pw button {
@@ -47,10 +47,11 @@ body {
   margin-right: 3px;
   background-color: rgba(255, 255, 255, 0.099);
   border: none;
-  color: wheat;
+  color: white;
+  font-size: medium;
+  font-weight: 300;
   border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
   padding: 0.25rem 0.35rem;
   top: auto;
   right: 5px;
@@ -76,7 +77,7 @@ body {
 
   #len {
     color: white;
-    border-radius: 6px;
+    border-radius: 3px;
     background: rgba(84, 238, 153, 0.316);
     border: 0;
   }
