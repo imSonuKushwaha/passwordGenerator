@@ -47,11 +47,11 @@ body {
   margin-right: 3px;
   background-color: rgba(255, 255, 255, 0.099);
   border: none;
-  color: rgb(22, 11, 32);
-  border-radius: 20px;
+  color: wheat;
+  border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  padding: 0.25rem;
+  padding: 0.25rem 0.35rem;
   top: auto;
   right: 5px;
   transform: translate(0, 50%);
@@ -72,7 +72,14 @@ body {
   color: #eee;
   display: flex;
   justify-content: space-between;
-  margin: 0.75rem 0;
+  margin: 0.75rem;
+
+  #len {
+    color: white;
+    border-radius: 6px;
+    background: rgba(84, 238, 153, 0.316);
+    border: 0;
+  }
 }
 
 .generate {
@@ -89,8 +96,3 @@ body {
   border-radius: 10px;
   border: none;
 }
-/* .generate:hover {
-  cursor: pointer;
-  box-shadow: 5px 5px 5px rgba(189, 194, 30, 0.523);
-  transform: translateY(-2px);
-} */
